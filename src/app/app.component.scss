@@ -1,5 +1,7 @@
-$primary: rgba(17, 0, 255, 0.74);
-$secondary: snow;
+//* Importa el archivo src/styles.scss
+//* Esto es posible porque en el angular.json agregamos "includePaths": ["src", "src/scss"]
+//* Diciéndole que las hojas de estilos sass de donde puede importar pueden ser de esos directorios
+@import 'styles';
 
 .btn {
     background-color: $primary;

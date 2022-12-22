@@ -1,0 +1,17 @@
+
+//* ******* Agregando Archivos Parciales *******
+//*
+//* Importa el archivo src/scss/_config.scss
+//* Esto es posible porque en el angular.json agregamos "includePaths": ["src", "src/scss"]
+//* Diciéndole que las hojas de estilos sass de donde puede importar pueden ser de esos directorios.
+//* Recordar que sass sabe que 'config' es igual a '_config.scss', es decir quita el _ y el .scss
+@import 'config';
+
+
+//* ******* Agregando Estilos Globales *******
+//*
+//* Estos estilos sí se aplicarán como normalmente se aplican cuando se trabaja con archivos .css
+body { 
+    background-color: rgb(9, 148, 118);
+    color: $secondary;   
+}
