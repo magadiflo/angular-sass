@@ -20,6 +20,10 @@
             color: $light;
             border: 1px solid $success;
         }
+
+        &:active {
+            background-color: darken($color: $success, $amount: 6);
+        }
     }
 
     &.btn-danger {
@@ -29,6 +33,10 @@
             background-color: lighten($color: $danger, $amount: 8);
             color: $light;
             border: 1px solid $danger;
+        }
+
+        &:active {
+            background-color: darken($color: $danger, $amount: 6);
         }
     }
 
